@@ -17,7 +17,8 @@ The main challenge of this project is playing online video game but given little
 5. Dyna-style model-free algorithm training provided with real evironment data and imagined data from World Model.
 
 ## Analogues 
-(bad perfomance, model-free approach) http://cs229.stanford.edu/proj2019aut/data/assignment_308832_raw/26588099.pdf
+(bad perfomance, model-free approach) http://cs229.stanford.edu/proj2019aut/data/assignment_308832_raw/26588099.pdf  
+https://sites.google.com/view/modelbasedrlatari/home
 
 ## Sources
 1. World models https://worldmodels.github.io/
