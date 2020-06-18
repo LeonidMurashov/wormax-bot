@@ -5,9 +5,9 @@
 The main challenge of this project is playing online video game but given little number of frames compared to existing solutions for Atari benchmark.
 
 ## What is already done:
-0. Behavioral cloning on 3-4 hours decent human example
+0. Behavioral cloning on 3-4 hours decent human example https://www.youtube.com/watch?v=ccmiViWMPVw&lc=UgySyYfXsdk1yxzoX_J4AaABAg
 1. VAE was trained on data collected from 10 hours footage of BC playing the game. Small dimensional latent game representation was acquired.
-2. Mixture Density Network was implemented and tested on toy data.  
+2. Mixture Density Network was implemented and tested on toy data. [demo](anim.gif)  
 **--> You are here <--**  
 3. World Model consisting of RNN + MDN was trained on BC gathered data.
 4.   
