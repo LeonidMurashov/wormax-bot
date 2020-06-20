@@ -33,10 +33,15 @@ Implementation: [MDN-RNN-ndim.ipynb](MDN-RNN-ndim.ipynb)
 6. BC 4 hours (definitely need more) footage was recorded and fed through VAE  
 Implementation: [cvae-latent-extraction.ipynb](cvae-latent-extraction.ipynb)   
 Result: [demo/wormax_vae.mp4](demo/wormax_vae.mp4)  
-7. World Model (MDN-RNN) was trained of encoded footage  
+7. World Model (MDN-RNN) was trained on encoded footage  
 Implementation: [MDN-RNN-video.ipynb](MDN-RNN-video.ipynb)   
 Result: [demo/wormax_mdnrnn_better.mp4](demo/wormax_mdnrnn_better.mp4)  
+It can predict crucial in-game moments like worm bumping into another worm and game over screen appearance after this. But still is not sufficient for the task. Needs futher investigation.
+
 #TODO: continue  
+
+## Сonclusions
+Acquired World Model is still not good enough for Model Predictive Control. The next goal is to get more data by running BC.
 
 ## Analogues 
 (bad perfomance, model-free approach) http://cs229.stanford.edu/proj2019aut/data/assignment_308832_raw/26588099.pdf  
