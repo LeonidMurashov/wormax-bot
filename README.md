@@ -41,7 +41,7 @@ It can predict crucial in-game moments like worm bumping into another worm and g
 #TODO: continue  
 
 ## Сonclusions
-Acquired World Model is still not good enough for Model Predictive Control. The next goal is to get more data by running BC.
+Acquired World Model is still not good enough for Model Predictive Control. The next goal is to get more data by running BC. VAE does not catch some crucial parts of the game well. It confuses worms and food. It is caused by the fact that food and worms are not that different in terms of contrast. Maybe applying end-to-end techniques will solve the issue.
 
 ## Analogues 
 (bad perfomance, model-free approach) http://cs229.stanford.edu/proj2019aut/data/assignment_308832_raw/26588099.pdf  
