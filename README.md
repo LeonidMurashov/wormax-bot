@@ -23,7 +23,7 @@ Implementation: [cvae.ipynb](cvae.ipynb)
 Its role here is to embed game frame (128, 128, 3) into latent vector (256), so RNN model can operate more efficiently on compressed representation.  
 2. MDN was implemented for toy one dimensional data.  
 Implementation: [MDN.ipynb](MDN.ipynb)  
-Result: [demo/anim.gif](demo/anim.gif)  
+Result: ![demo/anim.gif](demo/anim.gif)  
 3. MDN was modified to work with high-dimensional data.  
 Implementation: [MDN-several-outputs.ipynb](MDN-several-outputs.ipynb)
 4. MDN-RNN implemented and tested on toy data (stochastic sines).  
