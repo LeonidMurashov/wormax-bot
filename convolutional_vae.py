@@ -63,6 +63,7 @@ class CVAE(tf.keras.Model):
             eps = tf.random.normal(shape=(100, self.latent_dim))
         return self.decode(eps, apply_sigmoid=True)
 
+    @tf.function
     def encode(self, x):
         mean, logvar = tf.split(self.inference_net(x), num_or_size_splits=2, axis=1)
         return mean, logvar
@@ -71,6 +72,7 @@ class CVAE(tf.keras.Model):
         eps = tf.random.normal(shape=mean.shape)
         return eps * tf.exp(logvar * .5) + mean
 
+    @tf.function
     def decode(self, z, apply_sigmoid=False):
         logits = self.generative_net(z)
         if apply_sigmoid:
@@ -79,5 +81,6 @@ class CVAE(tf.keras.Model):
 
         return logits
     
+    @tf.function
     def call(self, inputs):
         return self.decode(self.encode(inputs)[0], apply_sigmoid=True)
